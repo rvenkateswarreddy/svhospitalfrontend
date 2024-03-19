@@ -26,12 +26,12 @@ const Login = () => {
           }
         )
         .then((res) => {
-          toast.success(res.data.message);
           setIsAuthenticated(true);
           navigateTo("/");
           setEmail("");
           setPassword("");
           setConfirmPassword("");
+          toast.success(res.data.message);
         });
     } catch (error) {
       toast.error(error.response.data.message);
