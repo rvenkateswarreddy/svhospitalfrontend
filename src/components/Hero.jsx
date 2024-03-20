@@ -7,12 +7,15 @@ const Hero = ({ title, imageUrl }) => {
         <div className="banner">
           <h1>{title}</h1>
           <p>
-            ZeeCare Medical Institute is a state-of-the-art facility dedicated
-            to providing comprehensive healthcare services with compassion and
-            expertise. Our team of skilled professionals is committed to
-            delivering personalized care tailored to each patient's needs. At
-            ZeeCare, we prioritize your well-being, ensuring a harmonious
-            journey towards optimal health and wellness.
+            Sri Venkateshwaraa Medical College Hospital & Research Centre is
+            promoted by Ramachandra Educational Trust, Chennai. The Chairman
+            Shri. B. Ramachandran is a successful educationalist and a
+            visionary.Our holistic approach to healthcare begins with primary
+            care and extends to specialized treatments. We ensure multi
+            disciplinary approach and patient centric care, which are essential
+            for compassionate care. At SVMC every patient is guaranteed the best
+            medical, diagnostic and surgical services. Our services reach over
+            5,00,000 outpatients and 40,000 inpatients a year.
           </p>
         </div>
         <div className="banner">

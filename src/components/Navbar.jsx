@@ -11,12 +11,9 @@ const Navbar = () => {
 
   const handleLogout = async () => {
     await axios
-      .get(
-        "https://svhospitalmanagement.onrender.com/api/v1/user/patient/logout",
-        {
-          withCredentials: true,
-        }
-      )
+      .get("http://localhost:4000/api/v1/user/patient/logout", {
+        withCredentials: true,
+      })
       .then((res) => {
         toast.success(res.data.message);
         setIsAuthenticated(false);
@@ -36,7 +33,13 @@ const Navbar = () => {
     <>
       <nav className={"container"}>
         <div className="logo">
-          <img src="/logo.png" alt="logo" className="logo-img" />
+          <img
+            src="/svuclogo.jpg"
+            alt="logo"
+            className="logo-img"
+            width="150"
+            height="50"
+          />
         </div>
         <div className={show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">

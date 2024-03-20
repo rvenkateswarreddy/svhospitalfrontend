@@ -1,6 +1,6 @@
 import React from "react";
 
-const Biography = ({imageUrl}) => {
+const Biography = ({ imageUrl }) => {
   return (
     <>
       <div className="container biography">
@@ -11,26 +11,18 @@ const Biography = ({imageUrl}) => {
           <p>Biography</p>
           <h3>Who We Are</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            blanditiis sequi aperiam. Debitis fugiat harum ex maxime illo
-            consequatur mollitia voluptatem omnis nihil nesciunt beatae esse
-            ipsam, sapiente totam aspernatur porro ducimus aperiam nisi. Ex
-            magnam voluptatum consectetur reprehenderit fugiat recusandae aut
-            similique illum natus velit, praesentium nostrum nesciunt. Deleniti,
-            nesciunt laboriosam totam iusto!
+            We at Sri Venkateshwaraa Medical College Hospital & Research Centre
+            on the Puducherry-Villupuram National Highway are committed to
+            creating a healthier society. Towards this end, we provide one of
+            the best tertiary care services in the state. Our holistic approach
+            to healthcare begins with primary care and extends to specialized
+            treatments. We ensure multi disciplinary approach and patient
+            centric care, which are essential for compassionate care. At SVMC
+            every patient is guaranteed the best medical, diagnostic and
+            surgical services. Our services reach over 5,00,000 outpatients and
+            40,000 inpatients a year.
           </p>
           <p>We are all in 2024!</p>
-          <p>We are working on a MERN STACK PROJECT.</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            assumenda exercitationem accusamus sit repellendus quo optio dolorum
-            corporis corrupti. Quas similique vel minima veniam tenetur
-            obcaecati atque magni suscipit laboriosam! Veniam vitae minus nihil
-            cupiditate natus provident. Ex illum quasi pariatur odit nisi
-            voluptas illo qui ipsum mollitia. Libero, assumenda?
-          </p>
-          <p>Lorem ipsum dolor sit amet!</p>
-          <p>Coding is fun!</p>
         </div>
       </div>
     </>
